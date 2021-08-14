@@ -1,0 +1,25 @@
+DocumentType,"Get, Post"
+DocStatus,"Get, Post"
+ProcessType,"Get, Post"
+BusinessType,"Get, Post"
+PsrType,"Get, Post"
+Type_MarketAgreement.Type (Contract Type in Balancing),"Get, Post"
+Contract_MarketAgreement.Type,"Get, Post"
+Auction.Type,"Get, Post"
+Auction.Category,"Get, Post"
+ClassificationSequence_AttributeInstanceComponent.Position,"Get, Post"
+OutBiddingZone_Domain,"Get, Post"
+BiddingZone_Domain,"Get, Post"
+ControlArea_Domain,"Get, Post"
+In_Domain,"Get, Post"
+Out_Domain,"Get, Post"
+Acquiring_Domain,"Get, Post"
+Connecting_Domain,"Get, Post"
+RegisteredResource,"Get, Post"
+"TimeInterval (can not be combined with PeriodStart, PeriodEnd)","Get, Post"
+PeriodStart (can not be combined with TimeInterval),Get
+PeriodEnd (can not be combined with TimeInterval),Get
+"TimeIntervalUpdate (can not be combined with PeriodStartUpdate, PeriodEndUpdate)","Get, Post"
+PeriodStartUpdate (can not be combined with TimeIntervalUpdate),Get
+PeriodEndUpdate (can not be combined with TimeIntervalUpdate),Get
+Update_DateAndOrTime (datetime in numeric. For example 20210803113900000 for evolution update date time 03.08.2021 13:39:00.000),"Get, Post"
