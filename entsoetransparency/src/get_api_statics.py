@@ -1,9 +1,15 @@
+#!/usr/bin/env python
+
+
+# Script for getting api statics from Api User Guide 
+# url = https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html
+
 
 import requests
 import bs4
 
 
-def webscrape_entsoe_guide(guide_url='https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html'):
+def get_api_statics(guide_url='https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html'):
     '''Webscraper for Entso-E Transparency Platform api guide'''
 
     # Request guide html content from url.
