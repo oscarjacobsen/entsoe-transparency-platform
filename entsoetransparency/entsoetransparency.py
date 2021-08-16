@@ -4,7 +4,7 @@
 
 # Local imports
 
-from get_api_statics import 
+from src.get_api_statics import get_api_statics
 
 
 # Lib imports
